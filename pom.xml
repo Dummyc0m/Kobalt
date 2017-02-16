@@ -94,7 +94,7 @@
             <artifactId>RobotCore</artifactId>
             <scope>system</scope>
             <version>release</version>
-            <systemPath>${basedir}/src/lib/com/qualcomm/robotcore/RobotCore-release.jar</systemPath>
+            <systemPath>${basedir}/lib/com/qualcomm/robotcore/RobotCore-release.jar</systemPath>
         </dependency>
         <!--<dependency>-->
         <!--<groupId>com.google.guava</groupId>-->
