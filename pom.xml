@@ -9,15 +9,15 @@
     <version>0.1-SNAPSHOT</version>
 
     <properties>
-        <kotlin.version>1.0.5</kotlin.version>
+        <kotlin.version>1.0.6</kotlin.version>
     </properties>
 
-    <!--<repositories>-->
-    <!--<repository>-->
-    <!--<id>jCenter</id>-->
-    <!--<url>http://jcenter.bintray.com</url>-->
-    <!--</repository>-->
-    <!--</repositories>-->
+    <repositories>
+        <repository>
+            <id>jCenter</id>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
