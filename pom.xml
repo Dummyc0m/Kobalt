@@ -61,30 +61,30 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <artifactId>maven-antrun-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>moveFiles</id>
-                        <phase>install</phase>
-                        <configuration>
-                            <tasks>
-                                <copy todir="/Users/Dummyc0m/Google Drive/Synced-Dev/aofFtcApp/libs" flatten="true"
-                                      overwrite="true"
-                                      verbose="true" failonerror="true">
-                                    <!--<fileset dir="commonbuildtreedir"-->
-                                    <!--includes="**/target/*-sa*.jar"/>-->
-                                    <fileset dir="/Users/Dummyc0m/Google Drive/Synced-Dev/CobaltForge/target/"
-                                             includes="*.jar"/>
-                                </copy>
-                            </tasks>
-                        </configuration>
-                        <goals>
-                            <goal>run</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--<plugin>-->
+                <!--<artifactId>maven-antrun-plugin</artifactId>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>moveFiles</id>-->
+                        <!--<phase>install</phase>-->
+                        <!--<configuration>-->
+                            <!--<tasks>-->
+                                <!--<copy todir="/Users/Dummyc0m/Google Drive/Synced-Dev/aofFtcApp/libs" flatten="true"-->
+                                      <!--overwrite="true"-->
+                                      <!--verbose="true" failonerror="true">-->
+                                    <!--&lt;!&ndash;<fileset dir="commonbuildtreedir"&ndash;&gt;-->
+                                    <!--&lt;!&ndash;includes="**/target/*-sa*.jar"/>&ndash;&gt;-->
+                                    <!--<fileset dir="/Users/Dummyc0m/Google Drive/Synced-Dev/CobaltForge/target/"-->
+                                             <!--includes="*.jar"/>-->
+                                <!--</copy>-->
+                            <!--</tasks>-->
+                        <!--</configuration>-->
+                        <!--<goals>-->
+                            <!--<goal>run</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
         </plugins>
     </build>
 
